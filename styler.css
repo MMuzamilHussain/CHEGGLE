@@ -1,0 +1,140 @@
+@media (max-width:1100px){
+    .container1{
+        background-image: url(imges/bg-imgs.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main{
+        background-image: none;
+    }
+    .left{
+        display: none;
+    }
+    .right{
+        background-image: none;
+    }
+    .search_bar{
+        width: 60%;
+        background-color: transparent;
+        bottom: 40%;
+        left: 20%;
+        right: 10%;
+        color: rgb(244, 242, 242);
+        ::placeholder{
+            color: rgba(255, 255, 255, 0.838);
+        }
+    }
+    #was,#wo{
+        background-color:rgba(36, 183, 168, 0.372);
+    }
+    .boxitem2_box{
+        background-color: transparent;
+        /* border: 1px solid rgba(15, 82, 75, 0.372); */
+    }
+    .container2{
+        display: none;
+    }
+    .clock{
+        display: none;
+    }
+    #container7{
+       display: none; 
+    }
+}
+@media (max-width:870px){
+    .container4{
+        justify-content: space-between;
+    }
+    .vec_main{
+        display: none;
+    }
+    .simple_cheap{
+        width: 60%;
+    }
+    #categ,.text_cecember_january{
+        font-size: 20px;
+    }
+    .categories_nam{
+        font-size: 11px;
+    }
+    .contact{
+        flex-direction: column;    
+    }
+    .write_us,.contact_us{
+        width: 100%;
+        margin: 10px;
+    }
+    #send{
+        margin: 20px;
+    }
+}
+@media (max-width:700px){
+    .search_box1{
+        width: 380px;
+    }
+    #was{
+        width: 200px;
+    }
+    #wo{
+        width: 100px;
+    }
+    .search_box2{
+        width: 400px;
+    }
+    .s_boxitem1{
+        height: 30px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    #S4,#S5{
+        display: none;
+    }
+    .logo{
+        width: 130px;
+    }
+    #menu{
+        width: 15px;
+    }
+    #logo{
+        width: 100px;
+    }
+    .navbar{
+        width:250px;
+    }
+    #for_comp{
+        width:120px;
+    }
+    #for_companies{
+        font-size: 11px;
+    }
+}
+@media (max-width:500px){
+    #line,#contact,#heart{
+        display: none;
+    }
+    .navbar{
+        justify-content: flex-end;
+    }
+    .search_box1{
+        width: 300px
+    }
+    #was{
+        width: 130px;
+    }
+    #wo{
+        width: 80px;
+    }
+    .search_box2{
+        width: 300px;
+    }
+    .s_boxitem1{
+        display: none;
+    }
+    .categories_nam{
+        font-size: 8px;
+    }
+    #categ,.text_cecember_january{
+        font-size: 13px;
+    }
+}
